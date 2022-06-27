@@ -53,58 +53,200 @@ table {
     display: flex;
 }
 
-.background img {
+/* .background img {
     height: 100vh;
+} */
+
+
+
+.left {
+    display: flex;
+    flex-direction: column;
+
+    background-image: url(/img/jonathan-forage-1azAjl8FTnU-unsplash.jpg);
+    background-size: 500px;
+    height: 100vh;
+    width:40vw;
+}
+
+.logo-box{
+    background-color: rgba(0, 0, 0, 0.423);
+    height: 20%;
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    font-size: 40px;
+}
+
+.logo{
+    height: 80%;
+}
+
+.name{
+    width: 50%;
+    margin-left: 20px;
+}
+
+.escape{
+    margin-bottom: 10px;
 }
 
 .right {
     display: flex;
     flex-direction: column;
     
-    width: 66vw;
+    width: 60vw;
     height: 100vh;
-}
 
-.top {
-    border: 1px solid black;
-    height: 30vh;
-    background-color: green;
-}
-
-.middle {
-    display: flex;
-
-    height: 40vh;
-
-    border: 1px solid black;
-    background-color: blue;
+    font-family: 'Anek Malayalam', sans-serif;
 
     
 }
 
+.top {
+    height: 31vh;
+    background-color: #b09b71bf;
+    display: flex;
+    flex-direction: column;
+
+    
+    font-size: 22px;
+}
+
+span {
+    font-weight: 700;
+}
+
+.para {
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.p1 {
+    margin-top: 50px;
+}
+.p3 {
+    margin-top: 20px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+
+    height: 46vh;
+
+    
+    background-color: #DCD7C9;
+    box-shadow: 10px 5px 5px #A27B5C;
+
+    
+}
+
+form {
+    height: vh69;
+}
+
+.form-body{
+    display: flex;
+    flex-direction: column;
+
+    height: 45vh;
+
+ 
+}
+
+.middle-top{
+    font-size: 23px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.middle-bottom{
+    display: flex;
+    height: 82%;
+    padding-left: 50px;
+}
+
 .form {
     width: 49%;
-    border: 2px solid white;
 }
+
+label {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    height: 33%;
+    width: 60%;
+   
+}
+
+.input {
+    height: 20px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    padding: 15px;
+    width: 250px;
+    border-color: rgba(0, 0, 0, 0.364);
+}
+
+input:not(:placeholder-shown):invalid {
+    border: 2px solid red;
+  }
+
 
 .bottom {
     display: flex;
     flex-direction: column;
 
-    height: 30vh;
-
-    border: 1px solid black;
-    background-color: red;
+    height: 21vh;
+    background-color: #b09b71bf;
+    padding-left: 50px;
+    padding-top: 35px;
 }
 
-.create-account {
-    height:40%;
-    border: 2px solid white;
+.bottom-top {
+    height: 70px;
+}
+
+.submit {
+    height:55px;
+    width: 230px;
+    border-radius: 10px;
+    background-color: #3F4E4F;
+    color: rgba(255, 255, 255, 0.881);
+    font-size: 20px;
+}
+
+.submit:hover {
+    background-color: #3f4e4fd4;
 }
 
 .have-account {
     height: 60%;
-    border: 2px solid white;
 }
+
+.log-in {
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+a {
+    color: #3F4E4F;
+}
+
+
+
+
 
 

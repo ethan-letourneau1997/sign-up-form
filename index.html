@@ -5,33 +5,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <title>Sign-Up</title>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <div class="left">
-            <div class="background">
-                <img src="/img/jonathan-forage-1azAjl8FTnU-unsplash.jpg" alt="">
-            </div>
-            <div class="logo-box"></div>         
+            <div class="logo-box">
+                <img class="logo" src="/img/nature-logo.png" alt="">
+                <div class="name">
+                    <p class="escape">ESCAPE</p>
+                    <p class="outdoors">OUTDOORS</p>
+                </div>  
+            </div>         
         </div>
         <div class="right">
-            <div class="top"></div>
+            <div class="top">
+                <p class="p1 para">In today's busy world, it can be hard to find the time to relax.</p>
+                <p class="p2 para">At Escape outdoors, you pick the date and we handle the rest.</p>
+                <p class="p3 para">Book the trip <span class="bold">you deserve</span>.</p>
+                <p class="p4 para">Book <span>Escape Outdoors</span>.</p>
+            </div>
+            <form action="">
             <div class="middle">
-                <div class="form form-left">
+                <div class="form-body">
+                    <p class="middle-top">Contact an Agent Today.</p>
+                    <div class="middle-bottom">
 
-                </div>
-                <div class="form form-right">
+                        <div class="form form-left">
+                            <div class="form-item">
+                                <label for="first-name">First Name</label>
+                                <input class="input" type="text" id="first-name" name="first-name" placeholder="Bob" required minlength="3" maxlength="50">
+                            </div>
+                            <div class="form-item">
+                                <label for="email">Email</label>
+                                <input class="input" type="email" id="email" name="email" placeholder="bobjohnson@email.com"required minlength="10" maxlength="50">
+                            </div>
+                            <div class="form-item">
+                                <label for="password">Password</label>
+                                <input class="input error" type="password" id="password" name="password" placeholder="********" required minlength="6" maxlength="20">
+                            </div>
+                        </div>
 
+                        <div class="form form-right">
+                            <div class="form-item">
+                                <label for="last-name">Last Name</label>
+                                <input class="input" type="text" id="last-name" name="last-name" placeholder="johnson" required minlength="3" maxlength="50">
+                            </div>
+                            <div class="form-item">
+                                <label for="phone-number">Phone Number</label>
+                                <input class="input" type="tel" id="phone-number" name="phone-number" placeholder="123-456-789" required minlength="9" maxlength="9">
+                            </div>
+                            <div class="form-item">
+                                <label for="confirm-password">Confirm Password</label>
+                                <input class="input error" type="password" id="confirm-password" name="confirm-password" placeholder="********" required minlength="6" maxlength="20">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+            
+        
             <div class="bottom">
-                <div class="create-account"></div>
-                <div class="have-account"></div>
+                <div class="bottom-top">
+                    <button class="submit">Create Account</button>
+                </div>
+                <div class="bottom-bottom">
+                    <p class="log-in">Already have an account? <a href="">Log in</a></p>
+                </div>
             </div>
+        </form>
         </div>
     </div>
 </body>
